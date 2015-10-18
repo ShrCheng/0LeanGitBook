@@ -1,0 +1,794 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>发布书籍至GitHub | 从零学习 GitBook</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.4.3">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../internet/index.html" />
+    
+    
+    <link rel="prev" href="../publish/index.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book" data-level="7.1" data-basepath=".." data-revision="Sun Oct 18 2015 14:56:09 GMT+0800 (CST)">
+    
+
+<div class="book-summary">
+    <div class="book-search" role="search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        前言
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="brief/index.html">
+            
+                
+                    <a href="../brief/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        GitBook 简介
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="base/environment.html">
+            
+                
+                    <a href="../base/environment.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        第一章 GitBook 基础环境
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="base/nodejs.html">
+            
+                
+                    <a href="../base/nodejs.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        Node.js 安装
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="base/git.html">
+            
+                
+                    <a href="../base/git.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        Git 安装
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="base/gitbook.html">
+            
+                
+                    <a href="../base/gitbook.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        GitBook 安装
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="base/result.html">
+            
+                
+                    <a href="../base/result.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        本章小结
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="command/index.html">
+            
+                
+                    <a href="../command/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        第二章 GitBook 命令解析
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="command/init.html">
+            
+                
+                    <a href="../command/init.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        初始化 init
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="command/build.html">
+            
+                
+                    <a href="../command/build.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        构建 build
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="command/serve.html">
+            
+                
+                    <a href="../command/serve.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        服务 serve
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="command/install.html">
+            
+                
+                    <a href="../command/install.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        安装 install
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="command/result.html">
+            
+                
+                    <a href="../command/result.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.</b>
+                        
+                        本章小结
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="catalog/index.html">
+            
+                
+                    <a href="../catalog/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        第三章 GitBook 目录结构
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="catalog/readmemd.html">
+            
+                
+                    <a href="../catalog/readmemd.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        README
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="catalog/summarymd.html">
+            
+                
+                    <a href="../catalog/summarymd.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        SUMMARY
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="catalog/result.html">
+            
+                
+                    <a href="../catalog/result.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.</b>
+                        
+                        本章小结
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="plugs/index.html">
+            
+                
+                    <a href="../plugs/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        第四章 GitBook 个性化及插件
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1" data-path="plugs/individuation.html">
+            
+                
+                    <a href="../plugs/individuation.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.</b>
+                        
+                        个性化
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="plugs/install.html">
+            
+                
+                    <a href="../plugs/install.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.</b>
+                        
+                        插件
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="plugs/result.html">
+            
+                
+                    <a href="../plugs/result.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.</b>
+                        
+                        本章小结
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="generate/index.html">
+            
+                
+                    <a href="../generate/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        第五章 GitBook 生成书籍
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="publish/index.html">
+            
+                
+                    <a href="../publish/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        第六章 GitBook 书籍发布
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="7.1" data-path="publish/github.html">
+            
+                
+                    <a href="../publish/github.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.1.</b>
+                        
+                        发布书籍至GitHub
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="8" data-path="internet/index.html">
+            
+                
+                    <a href="../internet/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.</b>
+                        
+                        第七章 GitBook 国际化
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="9" data-path="cover/index.html">
+            
+                
+                    <a href="../cover/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.</b>
+                        
+                        第八章 GitBook 封面
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10" data-path="book/index.html">
+            
+                
+                    <a href="../book/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.</b>
+                        
+                        第九章 GitBook 实战 - 从零学习 GitBook
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="10.1" data-path="book/readmemd.html">
+            
+                
+                    <a href="../book/readmemd.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.1.</b>
+                        
+                        书籍README
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10.2" data-path="book/summarymd.html">
+            
+                
+                    <a href="../book/summarymd.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.2.</b>
+                        
+                        书籍SUMMARY
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10.3" data-path="book/individuation.html">
+            
+                
+                    <a href="../book/individuation.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.3.</b>
+                        
+                        个性化书籍
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10.4" data-path="book/internet.html">
+            
+            <span><b>10.4.</b> 国际化书籍</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10.5" data-path="book/build.html">
+            
+            <span><b>10.5.</b> 构造书籍</span>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10.6" data-path="book/generate.html">
+            
+                
+                    <a href="../book/generate.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.6.</b>
+                        
+                        生成书籍
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10.7" data-path="book/publish.html">
+            
+                
+                    <a href="../book/publish.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.7.</b>
+                        
+                        发布书籍
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="11" data-path="end/index.html">
+            
+                
+                    <a href="../end/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.</b>
+                        
+                        后序
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Table of Contents"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Font Settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Share"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">
+                    Share on Twitter
+                </button>
+                <button type="button" data-sharing="google-plus" class="button">
+                    Share on Google
+                </button>
+                <button type="button" data-sharing="facebook" class="button">
+                    Share on Facebook
+                </button>
+                <button type="button" data-sharing="weibo" class="button">
+                    Share on Weibo
+                </button>
+                <button type="button" data-sharing="instapaper" class="button">
+                    Share on Instapaper
+                </button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Google"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+    
+
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >从零学习 GitBook</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="%E5%8F%91%E5%B8%83%E4%B9%A6%E7%B1%8D%E8%87%B3github">&#x53D1;&#x5E03;&#x4E66;&#x7C4D;&#x81F3;GitHub</h1>
+<p>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#x53D1;&#x5E03;&#x4E66;&#x7C4D;&#x5230; GitHub .</p>
+<h5 id="%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B">&#x53D1;&#x5E03;&#x6D41;&#x7A0B;</h5>
+<hr>
+<pre><code class="lang-mermaid">graph TD;
+    Git&#x73AF;&#x5883;&#x914D;&#x7F6E; --&gt; &#x914D;&#x7F6E;&#x672C;&#x5730;&#x90AE;&#x7BB1;
+    Git&#x73AF;&#x5883;&#x914D;&#x7F6E; --&gt; &#x914D;&#x7F6E;&#x672C;&#x5730;&#x7528;&#x6237;&#x540D;
+    &#x914D;&#x7F6E;&#x672C;&#x5730;&#x7528;&#x6237;&#x540D; --&gt; &#x514B;&#x9686;GitHub&#x4ED3;&#x5E93;
+    &#x914D;&#x7F6E;&#x672C;&#x5730;&#x90AE;&#x7BB1; --&gt; &#x514B;&#x9686;GitHub&#x4ED3;&#x5E93;
+    &#x514B;&#x9686;GitHub&#x4ED3;&#x5E93; --&gt; |&#x8FDE;&#x63A5;&#x670D;&#x52A1;&#x5668;|&#x514B;&#x9686;&#x6210;&#x529F;
+    &#x514B;&#x9686;&#x6210;&#x529F; --&gt; &#x6DFB;&#x52A0;&#x5230;&#x672C;&#x5730;&#x4ED3;&#x5E93;
+    &#x6DFB;&#x52A0;&#x5230;&#x672C;&#x5730;&#x4ED3;&#x5E93; --&gt; &#x63D0;&#x4EA4;&#x5230;&#x672C;&#x5730;&#x4ED3;&#x5E93;
+    &#x63D0;&#x4EA4;&#x5230;&#x672C;&#x5730;&#x4ED3;&#x5E93; --&gt; &#x5220;&#x9664;&#x539F;&#x6709;origin
+    &#x5220;&#x9664;&#x539F;&#x6709;origin --&gt; &#x6DFB;&#x52A0;&#x8FDC;&#x7A0B;origin
+    &#x6DFB;&#x52A0;&#x8FDC;&#x7A0B;origin --&gt; &#x4E0A;&#x4F20;&#x81F3;GitHub
+</code></pre>
+<h5 id="%E8%AF%A6%E7%BB%86%E6%93%8D%E4%BD%9C">&#x8BE6;&#x7EC6;&#x64CD;&#x4F5C;</h5>
+<hr>
+<ul>
+<li><p>&#x914D;&#x7F6E;&#x5168;&#x5C40;&#x90AE;&#x7BB1;</p>
+<pre><code>  git config --global user.email &quot;shichengoooo@live.com&quot;
+</code></pre></li>
+<li><p>&#x914D;&#x7F6E;&#x5168;&#x5C40;&#x7528;&#x6237;&#x540D;</p>
+<pre><code>  git config --global user.name &quot;ShrCheng&quot;
+</code></pre></li>
+<li><p>&#x514B;&#x9686;&#x8FDC;&#x7A0B;&#x670D;&#x52A1;&#x5668;&#x9879;&#x76EE;</p>
+<pre><code>  git clone https://github.com/ShrCheng/0LeanGitBook.git
+</code></pre></li>
+<li><p>&#x6DFB;&#x52A0;&#x5230;&#x672C;&#x5730;&#x4ED3;&#x5E93;</p>
+<pre><code>  git add .
+</code></pre></li>
+<li><p>&#x63D0;&#x4EA4;&#x5230;&#x672C;&#x5730;&#x4ED3;&#x5E93;</p>
+<pre><code>  git commit -m &apos;&#x521D;&#x6B21;&#x63D0;&#x4EA4;&lt;&#x4ECE;&#x96F6;&#x5B66;&#x4E60;GitBook&gt;&apos;
+</code></pre></li>
+<li><p>&#x5220;&#x9664;&#x672C;&#x5730;&#x539F;&#x6709; origin</p>
+<pre><code>  git remote rm origin
+</code></pre></li>
+<li><p>&#x6DFB;&#x52A0; origin &#x5230;&#x8FDC;&#x7A0B;&#x4ED3;&#x5E93;</p>
+<pre><code>  git remote add origin https://github.com/ShrCheng/0LeanGitBook.git
+</code></pre></li>
+<li><p>&#x63D0;&#x4EA4;&#x5230;&#x8FDC;&#x7A0B;&#x4ED3;&#x5E93;</p>
+<pre><code>  git push origin master
+</code></pre></li>
+</ul>
+<p>&#x63D0;&#x4EA4;&#x8FC7;&#x7A0B;:</p>
+<pre><code>Username for &apos;https://github.com&apos;: &#x8F93;&#x5165;&#x7528;&#x6237;&#x540D;
+Password for &apos;https://ShrCheng@github.com&apos;: &#x8F93;&#x5165;&#x5BC6;&#x7801;
+Counting objects: 52, done.
+Compressing objects: 100% (51/51), done.
+Writing objects: 100% (52/52), 20.28 KiB | 0 bytes/s, done.
+Total 52 (delta 12), reused 0 (delta 0)
+To https://github.com/ShrCheng/0LeanGitBook.git
+ * [new branch]      master -&gt; master
+</code></pre>
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../publish/index.html" class="navigation navigation-prev " aria-label="Previous page: 第六章 GitBook 书籍发布"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../internet/index.html" class="navigation navigation-next " aria-label="Next page: 第七章 GitBook 国际化"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

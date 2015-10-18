@@ -1,0 +1,35 @@
+# 个性化书籍
+```
+{
+    "author": "ShiCheng",
+    "output": null,
+    "generator": "site",
+    "title": "从零学习 GitBook",
+    "description": "本书将带您从零学习 GitBook, 让您成为写书高手",
+    "isbn": null,
+    "extension": null,
+    "variables": {},
+    "plugins": [
+                "mermaid-2"
+                ],
+    "pluginsConfig": {
+        "mermaid-2": {
+            "theme": "forest"
+        },
+        "links": {
+            "sidebar": {
+                "天天学IT-博客": "http: //blog.ttxit.com",
+                "天天学IT-论坛": "http: //www.ttxit.com"
+            },
+            "sharing": {
+                "google": null,
+                "facebook": null,
+                "twitter": null,
+                "weibo": null,
+                "qq": "http: //www.qq.com",
+                "all": null
+            }
+        }
+    }
+}
+```
